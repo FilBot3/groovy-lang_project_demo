@@ -1,0 +1,13 @@
+# Vim Files
+*~
+*.sw[a-z0-9]
+
+# Java Files
+*.class
+*.jar
+*.classpath
+build/
+.gradle/
+
+# Groovy Files
+# Don't know any yet?????

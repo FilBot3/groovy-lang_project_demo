@@ -1,0 +1,23 @@
+plugins {
+  id 'application'
+  id 'groovy'
+}
+
+application {
+  mainClassName = 'org.phil.Main'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.codehaus.groovy:groovy-all:2.4.15'
+    testImplementation 'org.codehaus.groovy:groovy-all:2.4.15'
+}
+
+compileGroovy
+compileTestGroovy
+groovydoc
+
+run
